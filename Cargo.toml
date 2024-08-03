@@ -12,6 +12,10 @@ description = "grammar"
 name = "log2"
 path = "src/nginx_log2.rs"
 
+[[bin]]
+name = "json"
+path = "src/json.rs"
+
 [dependencies]
 anyhow = "1.0.86"
 chrono = { version = "0.4.38", features = ["serde"] }
